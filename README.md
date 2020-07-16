@@ -9,5 +9,5 @@ Google Chrome|79.0.3945.88(64)|anywhere
 [chromedriver](https://chromedriver.storage.googleapis.com/84.0.4147.30/chromedriver_win32.zip)|84.0.4147.30|same as the Chrome browser
 [WebDriver](https://selenium-release.storage.googleapis.com/3.141/selenium-java-3.141.59.zip)|3.141.59|project path
 # 3. Instructions
-+place the *chromedriver* to the installed location of *Google Chrome* browser 
-+make the *WebDriver* the dependency of *Test_Selenium* project 
++ place the *chromedriver* to the installed location of *Google Chrome* browser 
++ make the *WebDriver* the dependency of *Test_Selenium* project 
