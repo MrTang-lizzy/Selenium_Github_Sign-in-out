@@ -1,5 +1,5 @@
 # Selenium_Github_Sign-in/out
-This project is created for simulating the process of signing in/out the github website automatically via the selenium suits.**I supposue that you have already installed the development environment of Java and have the experience to run the Java programms.
+This project is created for simulating the process of signing in/out the github website automatically via the selenium suits.**I supposue that you have already installed the development environment of Java and have the experience to run the Java programms**.
 # 1. Development Environment
 *JDK1.8* + *IntelliJ IDEA 2019.3.3*
 # 2. Installed Suits
