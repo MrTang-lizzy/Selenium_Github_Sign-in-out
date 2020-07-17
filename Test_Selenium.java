@@ -49,7 +49,7 @@ class Selenium_Github {
         loginBtn1.click();
         WebElement quitBtn2 = driver.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/details-menu/form/button"));
         loginBtn2.click();
-        System.out.println("Fail Sign in");
+        System.out.println("Successful Sign out");
 
     }
 
