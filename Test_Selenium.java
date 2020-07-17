@@ -44,10 +44,10 @@ class Selenium_Github {
 
     }
 
-    public void logout()  {
-        WebElement loginBtn1 = driver.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/summary"));
+    public void quit()  {
+        WebElement quitBtn1 = driver.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/summary"));
         loginBtn1.click();
-        WebElement loginBtn2 = driver.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/details-menu/form/button"));
+        WebElement quitBtn2 = driver.findElement(By.xpath("/html/body/div[1]/header/div[7]/details/details-menu/form/button"));
         loginBtn2.click();
         System.out.println("Fail Sign in");
 
@@ -59,6 +59,6 @@ public class Test_Selenium {
     public static void main(String...args) {
         Selenium_Github usr1 = new Selenium_Github(1); //initialing the account id
         usr1.login("ZTE", "666666"); //login the account
-        usr1.logout();
+        usr1.quit();
     }
 }
